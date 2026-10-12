@@ -1,0 +1,1049 @@
+[
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/",
+    "position": 0,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/",
+    "position": 0.22,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/",
+    "position": 0.5,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/",
+    "position": 0.96,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/",
+    "position": "philosophy",
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/",
+    "position": "collection",
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/",
+    "position": "ritual",
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/shop",
+    "position": 0,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/shop/oil-comb-applicator",
+    "position": 0,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/cart",
+    "position": 0,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/login",
+    "position": 0,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/register",
+    "position": 0,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/terms",
+    "position": 0,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/privacy",
+    "position": 0,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/account",
+    "role": "CUSTOMER",
+    "overflow": 0,
+    "heading": "Welcome back, Responsive Audit Customer",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/account/orders",
+    "role": "CUSTOMER",
+    "overflow": 0,
+    "heading": "My Orders",
+    "error": false,
+    "offenders": [
+      {
+        "tag": "BUTTON",
+        "text": "Cancelled",
+        "class": "min-h-12 shrink-0 border-b px-4 text-xs uppercase tracking-wider border-transparent text-muted-foreground"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Returns",
+        "class": "min-h-12 shrink-0 border-b px-4 text-xs uppercase tracking-wider border-transparent text-muted-foreground"
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/account/orders/AUDIT-ORDER",
+    "role": "CUSTOMER",
+    "overflow": 0,
+    "heading": "Order Details",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/account/orders/AUDIT-ORDER/track",
+    "role": "CUSTOMER",
+    "overflow": 0,
+    "heading": "Track Order",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/account/wishlist",
+    "role": "CUSTOMER",
+    "overflow": 0,
+    "heading": "Your wishlist",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/account/reviews",
+    "role": "CUSTOMER",
+    "overflow": 0,
+    "heading": "Your reviews",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/account/profile",
+    "role": "CUSTOMER",
+    "overflow": 0,
+    "heading": "Your profile",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/account/support",
+    "role": "CUSTOMER",
+    "overflow": 0,
+    "heading": "Help & support",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/admin",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Dashboard",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/admin/orders",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Orders",
+    "error": false,
+    "offenders": [
+      {
+        "tag": "DIV",
+        "text": "ALLPENDINGCONFIRMEDPROCESSINGPACKEDSHIPPEDOUT FOR ",
+        "class": "flex w-max gap-1"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "OUT FOR DELIVERY",
+        "class": "min-h-9 px-2.5 text-[0.49rem] uppercase tracking-[0.08em] text-muted-foreground hover:text-foreground"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "DELIVERED",
+        "class": "min-h-9 px-2.5 text-[0.49rem] uppercase tracking-[0.08em] text-muted-foreground hover:text-foreground"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "CANCELLED",
+        "class": "min-h-9 px-2.5 text-[0.49rem] uppercase tracking-[0.08em] text-muted-foreground hover:text-foreground"
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/admin/orders/1R1028",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Orders",
+    "error": false,
+    "offenders": [
+      {
+        "tag": "DIV",
+        "text": "ALLPENDINGCONFIRMEDPROCESSINGPACKEDSHIPPEDOUT FOR ",
+        "class": "flex w-max gap-1"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "OUT FOR DELIVERY",
+        "class": "min-h-9 px-2.5 text-[0.49rem] uppercase tracking-[0.08em] text-muted-foreground hover:text-foreground"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "DELIVERED",
+        "class": "min-h-9 px-2.5 text-[0.49rem] uppercase tracking-[0.08em] text-muted-foreground hover:text-foreground"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "CANCELLED",
+        "class": "min-h-9 px-2.5 text-[0.49rem] uppercase tracking-[0.08em] text-muted-foreground hover:text-foreground"
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/admin/products",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Products",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/admin/products/new",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Products",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/admin/products/audit-product",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Products",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/admin/inventory",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Inventory",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/admin/customers",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Customers",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/admin/customers/customer-ananya",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Customers",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/admin/reviews",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Reviews",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/admin/support",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Support",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/admin/support/TKT-2048",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Support",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/admin/shipping",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Shipping",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/admin/returns",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Returns & Refunds",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/admin/payments",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Payments",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/admin/discounts",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Discounts",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/admin/content",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Content",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/admin/reports",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Reports",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "route": "/admin/settings",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Settings",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/",
+    "position": 0,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/",
+    "position": 0.22,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/",
+    "position": 0.5,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/",
+    "position": 0.96,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/",
+    "position": "philosophy",
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/",
+    "position": "collection",
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/",
+    "position": "ritual",
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/shop",
+    "position": 0,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/shop/oil-comb-applicator",
+    "position": 0,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/cart",
+    "position": 0,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/login",
+    "position": 0,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/register",
+    "position": 0,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/terms",
+    "position": 0,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/privacy",
+    "position": 0,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/account",
+    "role": "CUSTOMER",
+    "overflow": 0,
+    "heading": "Welcome back, Responsive Audit Customer",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/account/orders",
+    "role": "CUSTOMER",
+    "overflow": 0,
+    "heading": "My Orders",
+    "error": false,
+    "offenders": [
+      {
+        "tag": "BUTTON",
+        "text": "Returns",
+        "class": "min-h-12 shrink-0 border-b px-4 text-xs uppercase tracking-wider border-transparent text-muted-foreground"
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/account/orders/AUDIT-ORDER",
+    "role": "CUSTOMER",
+    "overflow": 0,
+    "heading": "Order Details",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/account/orders/AUDIT-ORDER/track",
+    "role": "CUSTOMER",
+    "overflow": 0,
+    "heading": "Track Order",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/account/wishlist",
+    "role": "CUSTOMER",
+    "overflow": 0,
+    "heading": "Your wishlist",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/account/reviews",
+    "role": "CUSTOMER",
+    "overflow": 0,
+    "heading": "Your reviews",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/account/profile",
+    "role": "CUSTOMER",
+    "overflow": 0,
+    "heading": "Your profile",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/account/support",
+    "role": "CUSTOMER",
+    "overflow": 0,
+    "heading": "Help & support",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/admin",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Dashboard",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/admin/orders",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Orders",
+    "error": false,
+    "offenders": [
+      {
+        "tag": "DIV",
+        "text": "ALLPENDINGCONFIRMEDPROCESSINGPACKEDSHIPPEDOUT FOR ",
+        "class": "flex w-max gap-1"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "REFUNDED",
+        "class": "min-h-9 px-2.5 text-[0.49rem] uppercase tracking-[0.08em] text-muted-foreground hover:text-foreground"
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/admin/orders/1R1028",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Orders",
+    "error": false,
+    "offenders": [
+      {
+        "tag": "DIV",
+        "text": "ALLPENDINGCONFIRMEDPROCESSINGPACKEDSHIPPEDOUT FOR ",
+        "class": "flex w-max gap-1"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "REFUNDED",
+        "class": "min-h-9 px-2.5 text-[0.49rem] uppercase tracking-[0.08em] text-muted-foreground hover:text-foreground"
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/admin/products",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Products",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/admin/products/new",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Products",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/admin/products/audit-product",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Products",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/admin/inventory",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Inventory",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/admin/customers",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Customers",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/admin/customers/customer-ananya",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Customers",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/admin/reviews",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Reviews",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/admin/support",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Support",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/admin/support/TKT-2048",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Support",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/admin/shipping",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Shipping",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/admin/returns",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Returns & Refunds",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/admin/payments",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Payments",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/admin/discounts",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Discounts",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/admin/content",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Content",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/admin/reports",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Reports",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "route": "/admin/settings",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Settings",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "route": "/",
+    "position": 0,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "route": "/",
+    "position": 0.22,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "route": "/",
+    "position": 0.5,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "route": "/",
+    "position": 0.96,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "route": "/",
+    "position": "philosophy",
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "route": "/",
+    "position": "collection",
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "route": "/",
+    "position": "ritual",
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "route": "/shop",
+    "position": 0,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "route": "/shop/oil-comb-applicator",
+    "position": 0,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "route": "/cart",
+    "position": 0,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "route": "/login",
+    "position": 0,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "route": "/register",
+    "position": 0,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "route": "/terms",
+    "position": 0,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "route": "/privacy",
+    "position": 0,
+    "overflow": 0,
+    "offenders": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "route": "/account",
+    "role": "CUSTOMER",
+    "overflow": 0,
+    "heading": "Welcome back, Responsive Audit Customer",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "route": "/account/orders",
+    "role": "CUSTOMER",
+    "overflow": 0,
+    "heading": "My Orders",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "route": "/account/orders/AUDIT-ORDER",
+    "role": "CUSTOMER",
+    "overflow": 0,
+    "heading": "Order Details",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "route": "/account/orders/AUDIT-ORDER/track",
+    "role": "CUSTOMER",
+    "overflow": 0,
+    "heading": "Track Order",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "route": "/account/wishlist",
+    "role": "CUSTOMER",
+    "overflow": 0,
+    "heading": "Your wishlist",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "route": "/account/reviews",
+    "role": "CUSTOMER",
+    "overflow": 0,
+    "heading": "Your reviews",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "route": "/account/profile",
+    "role": "CUSTOMER",
+    "overflow": 0,
+    "heading": "Your profile",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "route": "/account/support",
+    "role": "CUSTOMER",
+    "overflow": 0,
+    "heading": "Help & support",
+    "error": false,
+    "offenders": []
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "route": "/admin",
+    "role": "ADMIN",
+    "overflow": 0,
+    "heading": "Dashboard",
+    "error": false,
+    "offenders": []
+  }
+]

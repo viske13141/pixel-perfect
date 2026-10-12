@@ -1,0 +1,223 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * Design system definition.
+ *
+ * The @theme inline block maps CSS custom properties to Tailwind utility
+ * classes (e.g. --color-primary -> bg-primary, text-primary).
+ *
+ * The :root and .dark blocks define the actual color values using oklch.
+ * All colors MUST use oklch format.
+ *
+ * To add a new semantic color:
+ * 1. Add the variable to :root (light value) and .dark (dark value)
+ * 2. Register it in @theme inline as --color-<name>: var(--<name>)
+ */
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-ring-offset-background: var(--background);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-night: var(--night);
+  --font-serif: var(--font-serif);
+  --font-sans: var(--font-sans);
+}
+
+:root {
+  --radius: 0.25rem;
+  --background: oklch(0.14 0.012 150);
+  --foreground: oklch(0.94 0.018 85);
+  --card: oklch(0.19 0.02 150);
+  --card-foreground: oklch(0.94 0.018 85);
+  --popover: oklch(0.19 0.02 150);
+  --popover-foreground: oklch(0.94 0.018 85);
+  --primary: oklch(0.70 0.075 82);
+  --primary-foreground: oklch(0.14 0.012 150);
+  --secondary: oklch(0.23 0.025 150);
+  --secondary-foreground: oklch(0.94 0.018 85);
+  --muted: oklch(0.21 0.02 150);
+  --muted-foreground: oklch(0.72 0.02 85);
+  --accent: oklch(0.52 0.05 65);
+  --accent-foreground: oklch(0.94 0.018 85);
+  --destructive: oklch(0.6 0.2 27);
+  --destructive-foreground: oklch(0.98 0 0);
+  --border: oklch(0.94 0.018 85 / 14%);
+  --input: oklch(0.94 0.018 85 / 18%);
+  --ring: oklch(0.70 0.075 82);
+  --night: oklch(0.11 0.006 150);
+  --chart-1: oklch(0.70 0.075 82); --chart-2: oklch(0.52 0.05 65); --chart-3: oklch(0.4 0.05 150); --chart-4: oklch(0.8 0.05 85); --chart-5: oklch(0.6 0.06 140);
+  --sidebar: oklch(0.14 0.012 150); --sidebar-foreground: oklch(0.94 0.018 85); --sidebar-primary: oklch(0.70 0.075 82); --sidebar-primary-foreground: oklch(0.14 0.012 150); --sidebar-accent: oklch(0.23 0.025 150); --sidebar-accent-foreground: oklch(0.94 0.018 85); --sidebar-border: oklch(0.94 0.018 85 / 14%); --sidebar-ring: oklch(0.70 0.075 82);
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Manrope", system-ui, sans-serif;
+  --scrim-film: radial-gradient(ellipse at center, transparent 40%, oklch(0.11 0.006 150 / 0.55) 100%), linear-gradient(to bottom, oklch(0.11 0.006 150 / 0.35), transparent 22%, transparent 70%, oklch(0.11 0.006 150 / 0.6));
+}
+
+.nature-section {
+  --background: oklch(0.2 0.035 150);
+  --foreground: oklch(0.96 0.018 85);
+  --muted-foreground: oklch(0.84 0.025 95);
+  --primary: oklch(0.79 0.095 85);
+  --border: oklch(0.94 0.018 85 / 20%);
+  position: relative;
+  background-color: var(--background);
+  background-image: linear-gradient(rgba(5, 24, 15, 0.38), rgba(5, 24, 15, 0.55)), url('/img/forest-botanical-background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nature-ritual {
+  background-image: linear-gradient(rgba(5, 24, 15, 0.5), rgba(5, 24, 15, 0.65)), url('/img/forest-botanical-background.png');
+}
+
+.nature-section .btn-gold {
+  color: oklch(0.2 0.035 150);
+  background: var(--primary);
+  border-color: var(--primary);
+}
+
+.nature-section .btn-gold:hover {
+  background: oklch(0.86 0.085 85);
+}
+
+.nature-section .btn-quiet:hover {
+  color: var(--background);
+}
+
+@media (min-width: 1024px) and (prefers-reduced-motion: no-preference) {
+  .nature-section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+  }
+}
+
+@layer base {
+  html { background: var(--night); }
+  body { font-family: var(--font-sans); -webkit-font-smoothing: antialiased; }
+  h1, h2, h3 { font-family: var(--font-serif); font-weight: 400; letter-spacing: -0.01em; }
+}
+
+@utility eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+@utility display {
+  font-family: var(--font-serif);
+  font-weight: 300;
+  line-height: 0.98;
+  font-size: clamp(2.6rem, 7vw, 6.5rem);
+}
+@utility film-scrim { background: var(--scrim-film); }
+@utility btn-quiet {
+  display: inline-flex; align-items: center; gap: 0.75rem;
+  padding: 0.95rem 1.6rem; font-size: 0.7rem; letter-spacing: 0.28em; text-transform: uppercase;
+  border: 1px solid color-mix(in oklab, var(--foreground) 35%, transparent);
+  color: var(--foreground); transition: background .5s, color .5s, border-color .5s;
+  &:hover { background: var(--foreground); color: var(--night); }
+}
+@utility btn-gold {
+  display: inline-flex; align-items: center; gap: 0.75rem;
+  padding: 0.95rem 1.6rem; font-size: 0.7rem; letter-spacing: 0.28em; text-transform: uppercase;
+  background: var(--primary); color: var(--primary-foreground); transition: opacity .4s;
+  &:hover { opacity: .85; }
+}
+/* Keep browser-saved credentials in the botanical account palette. */
+.auth-shell input:not([type="checkbox"]):not([type="radio"]) {
+  background-color: #14271d;
+  color: #f7f1e8;
+  border-color: #405044;
+  min-height: 48px;
+}
+
+html { scroll-padding-top: 100px; }
+body { min-width: 0; }
+img, canvas { max-width: 100%; }
+input, select, textarea { min-width: 0; }
+.auth-shell input, .auth-shell select, .auth-shell textarea { font-size: 16px; }
+.auth-shell h1, .auth-shell h2 { overflow-wrap: break-word; }
+
+@media (max-width: 639px) {
+  .btn-gold, .btn-quiet { letter-spacing: 0.16em; padding-inline: 1.1rem; }
+}
+
+@media (max-width: 767px) {
+  input:not([type="checkbox"]):not([type="radio"]), select, textarea { font-size: 16px; }
+}
+
+@media (max-height: 500px) and (orientation: landscape) {
+  .film-moment { padding-top: 90px; padding-bottom: 35px; }
+  .film-section .display { font-size: clamp(1.65rem, 7vh, 2.5rem); }
+  .film-section .eyebrow { margin-bottom: 0.5rem; }
+  .film-reveal { align-items: center; justify-content: flex-end; padding-top: 85px; padding-bottom: 20px; }
+  .film-reveal > div { max-width: 45%; }
+  .film-reveal p { margin-top: 0.5rem; }
+  .film-reveal .btn-gold, .film-reveal .btn-quiet { padding: 0.6rem 0.8rem; font-size: 0.58rem; }
+}
+
+@media (max-width: 1023px) and (orientation: portrait) {
+  .film-reveal { align-items: flex-end; justify-content: flex-start; padding-bottom: 5svh; }
+  .film-reveal .display { font-size: clamp(2.4rem, 6vw, 3.4rem); }
+  .film-reveal > div { max-width: 100%; }
+}
+
+.auth-shell input:is(:-webkit-autofill, :-webkit-autofill:hover, :-webkit-autofill:focus) {
+  -webkit-text-fill-color: #f7f1e8;
+  -webkit-box-shadow: 0 0 0 1000px #14271d inset;
+  caret-color: #f7f1e8;
+}

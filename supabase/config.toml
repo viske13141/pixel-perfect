@@ -1,0 +1,4 @@
+[functions.register-dev-admin]
+# No session exists at registration. The handler authenticates the server-held
+# bootstrap secret and rejects disabled/expired/non-local requests itself.
+verify_jwt = false
